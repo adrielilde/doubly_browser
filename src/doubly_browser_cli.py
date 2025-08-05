@@ -1,5 +1,5 @@
 # Technical Challenge 2: Browser History Using a Doubly Linked List
-# You are developing a web browser, and you need to implement a 
+# You are developing a web browser, and you need to implement a
 # feature to manage the user’s browsing history, allowing them to go
 #  back and forward through the visited pages.
 # Authors: Adriel Ildefonso, email: aoir94@gmail.com
@@ -62,12 +62,12 @@ while True:
             print("Press 3 to 'Go Forward'")
             print("Press 4 to Exit Browser")
             navegation = input("Select option: ")
-            
+
             if navegation == "1":
                 site = input("Please enter url/site to visit: ")
-                browser.visit_page(site) 
+                browser.visit_page(site)
             elif navegation == "2":
-                browser.go_back()  
+                browser.go_back()
             elif navegation == "3":
                 browser.go_forward()
             elif navegation == "4":
@@ -81,3 +81,4 @@ while True:
         break
     else:
         print("\n Option not valid \n")
+        
